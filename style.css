@@ -1,0 +1,122 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: gainsboro;
+    color: #232323;
+    font-family: 'Lato', sans-serif;
+    /* background-image: url("assets/images/floral-img.png");
+    background-repeat: no-repeat;
+    background-position: left left;
+    background-attachment: local; */
+}
+
+.container {
+    background-color: #aca0b6;
+    margin: 10% auto;
+    width: 75%;
+    border-radius: 10px;
+    /* background-color: rgba(235, 235, 235, 0.75); */
+}
+
+.navbar-brand {
+    font-family: 'Antic Slab', serif;
+    letter-spacing: 0.25rem;
+    width: 100%;
+}
+
+.navbar-brand:hover {
+    color: gainsboro !important;
+}
+
+ul .navbar-nav {
+    font-weight: 100;
+}
+
+/* Index */
+
+.splash-home {
+    padding: 20px;
+}
+
+.splash-home h2 {
+    margin-top: 50%;
+    font-family: 'Antic Slab', serif;
+    text-transform: uppercase;
+}
+
+#intro-text {
+    margin-top: 20px;
+}
+
+
+h4 {
+    font-family: 'Antic Slab', serif;
+    text-transform: uppercase;
+}
+
+.social-media {
+    padding: 20px;
+}
+
+.social-media a {
+    color: gainsboro;
+    margin: 0 auto;
+    padding-right: 10px;
+}
+
+.social-media a:hover {
+    color: #232323;
+}
+
+#home-img {
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* About Me */
+
+.about-me {
+    padding: 20px;
+}
+
+.about-me h2 {
+    font-family: 'Antic Slab', serif;
+    text-transform: uppercase;
+}
+
+/* Portfolio */
+
+.portfolio-display {
+    padding: 20px;
+}
+
+#portfolio-text h2 {
+    font-family: 'Antic Slab', serif;
+    text-transform: uppercase;
+}
+
+.portfolio-display img {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+}
+
+@media (max-width: 991px) {
+    .splash-home h2 {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 880px){
+    .navbar-nav {
+        font-size: 0.75rem;
+    }   
+}
