@@ -10,10 +10,6 @@ body {
     background-color: #aca0b6;
     color: #232323;
     font-family: 'Lato', sans-serif;
-    /* background-image: url("assets/images/floral-img.png");
-    background-repeat: no-repeat;
-    background-position: left left;
-    background-attachment: local; */
 }
 
 .container {
@@ -21,7 +17,6 @@ body {
     margin: 10% auto;
     width: 75%;
     border-radius: 10px;
-    /* background-color: rgba(235, 235, 235, 0.75); */
 }
 
 .navbar-brand {
