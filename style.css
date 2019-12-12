@@ -33,6 +33,15 @@ ul .navbar-nav {
     font-weight: 100;
 }
 
+a {
+    color: gainsboro;
+}
+
+a:hover {
+    color: #241b2b;
+    text-decoration: none;
+}
+
 /* Index */
 
 .splash-home {
