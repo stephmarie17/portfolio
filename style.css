@@ -176,6 +176,10 @@ li > img {
     justify-content: center;
 }
 
+.contact-wrapper img {
+    height: 24px;
+}
+
 .contact-img {
     display: block;
     margin-left: auto;
