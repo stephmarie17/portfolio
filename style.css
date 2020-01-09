@@ -11,6 +11,7 @@ body {
     margin: auto 0;
     font-family: 'Hind', sans-serif; 
     font-size: 1.5em;
+    max-width: 1440px;
 }
 
 .zone {
@@ -139,6 +140,14 @@ li > img {
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(350px, 2fr));
     grid-template-rows: 2fr;
+}
+
+.portfolio-links {
+    font-size: 0.5em;
+}
+
+.portfolio-links a {
+    color: #f5f5f6;
 }
 
 .box > img{
